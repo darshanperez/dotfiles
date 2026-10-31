@@ -2,7 +2,7 @@
 
 My personal Linux configuration files, built around a [Hyprland](https://hyprland.org/) Wayland desktop :p
 
-> Cooked by **AxoltDash** — Salu2!!
+> Cooked by **me** — Salu2!!
 
 ---
 
@@ -55,7 +55,7 @@ It's kept here as a reference while the migration is ongoing - the new `nvim` se
 - Configs are modular where it makes sense (`hypr` is split into `mod/` and `apparance/` files).
 - Requires a Nerd Font installed (JetBrainsMono Nerd Font for the terminal).
 - Requires a custom Rainworld Font for the waybar, and this connects with the next point
-- **ALSO CHECK MY [NIXOS CONFIGS](https://github.com/AxoltDash/nixos)!!** it has a lot of dependencies (like fonts) and packages for this configs
+- **ALSO CHECK MY [NIXOS CONFIGS](https://github.com/darshanperez/nixos)!!** it has a lot of dependencies (like fonts) and packages for this configs
 
 ---
 
