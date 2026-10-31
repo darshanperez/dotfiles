@@ -44,7 +44,7 @@ The script is safe to re-run:
 
 ## A note on `nvim_old`
 
-`nvim_old` is my **old Neovim configuration**, written entirely from scratch... I'm currently in the process of **migrating it onto a [LazyVim](https://www.lazyvim.org/) base**, which lives in `nvim`
+`nvim_old` and `nvim_lazyvim` are my **old Neovim configurations**, the first written entirely from scratch and the second using [LazyVim](https://www.lazyvim.org/)... I'm currently in the process of **migrating it onto a [NVchad](https://nvchad.com/) base**, which lives in `nvim`
 
 It's kept here as a reference while the migration is ongoing - the new `nvim` setup is the one in active use hehe...
 
