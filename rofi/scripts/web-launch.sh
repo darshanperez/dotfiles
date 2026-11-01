@@ -10,8 +10,11 @@ declare -A ENTRIES=(
   ["Gemini"]="https://gemini.google.com/u/1/app"
   ["Claude"]="https://claude.ai/new"
   ["Copilot"]="https://github.com/copilot"
-  ["Claude 101"]="https://academy.claude.com/courses/claude-101"
   ["Lumo"]="https://lumo.proton.me/"
+
+  # Courses
+  ["Linux Fundation"]="https://trainingportal.linuxfoundation.org/learn/course/developing-secure-software-lfd121/introduction/course-information-1"
+  ["Claude 101"]="https://academy.claude.com/courses/claude-101"
 
   # Communication
   ["WhatsApp"]="https://web.whatsapp.com/"
