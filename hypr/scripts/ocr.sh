@@ -14,12 +14,15 @@ for cmd in grim slurp wl-copy tesseract; do
   fi
 done
 
-geometry="$(slurp)"
-if [[ -z "$geometry" ]]; then
-  exit 0
+if [[ "${1:-}" == "--freeze" ]]; then
+  "$HOME/.config/hypr/scripts/freeze-grab.sh" "$TMPIMG" || exit 0
+else
+  geometry="$(slurp)"
+  if [[ -z "$geometry" ]]; then
+    exit 0
+  fi
+  grim -g "$geometry" "$TMPIMG"
 fi
-
-grim -g "$geometry" "$TMPIMG"
 
 wl-copy --type image/png < "$TMPIMG" || true
 
