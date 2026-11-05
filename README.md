@@ -42,7 +42,7 @@ The script is safe to re-run:
 
 ---
 
-## A note on `nvim_old`
+## A note on `nvim_old` & `nvim_lazyvim`
 
 `nvim_old` and `nvim_lazyvim` are my **old Neovim configurations**, the first written entirely from scratch and the second using [LazyVim](https://www.lazyvim.org/)... I'm currently in the process of **migrating it onto a [NVchad](https://nvchad.com/) base**, which lives in `nvim`
 
